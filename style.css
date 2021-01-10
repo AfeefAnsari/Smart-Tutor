@@ -1,0 +1,96 @@
+*{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+
+body{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  background-image: linear-gradient(to bottom, #cd4a4a, #d2574f, #d66454, #da6f5a, #de7b61, #d6795e, #cd775c, #c5755a, #af654e, #9a5641, #854736, #71392a);
+  
+}
+
+button:hover {
+cursor: pointer;
+width: 400px;
+height: 80px;
+font-size: 20px;
+background-color: rgba(220, 20, 60, 1);
+animation: rotate .5s linear infinite;
+
+}
+
+button { 
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(220, 20, 60, 1);
+  opacity:1;
+  margin: 2.5px;
+  border-radius: 10px;
+}
+
+.tag{
+  width: 300px;
+  height: 60px;
+  background-color: rgb(0, 168, 21);
+  opacity:1;
+  margin: 2.5px;
+  border-radius: 10px;
+  line-height: 0.65;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  margin-top: 20px;
+  border-style: double;
+}
+
+#b_button{
+  /* width: 300px;
+  height: 60px;
+  background-color: rgb(202, 202, 75); */
+  /* opacity:1;
+  margin: 2.5px;
+  border-radius: 10px; */
+  line-height: 1.1;
+  font-size: 11px;
+  /* display: inline-block;
+  vertical-align: middle; */
+}
+
+#b_button:hover {
+  font-size: 15px;
+}
+
+.flex-container {
+   border: lightblue;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  flex-direction: row;
+  justify-content:center;
+  /* background:white; Is it OK if i changed it? It didnt really fo with the red...*/
+  opacity:.5;
+}
+
+#logo{
+  border-radius:  15px 50px 30px 5px;
+  margin: 30px;
+}
+
+#header{
+  display:flex;
+  flex-direction:column;
+}
+
+img {
+margin: 0px auto;
+display: block;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(-5deg)}
+  25% {transform: rotate(5deg)}
+  50% {transform: rotate(5deg)}
+  75% {transform: rotate(-5deg)}
+  100% {transform: rotate(-5deg)}
+}
